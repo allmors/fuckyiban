@@ -1,6 +1,6 @@
 const publicPath = process.env.NODE_ENV === 'production'
-        ? '/fake-yiban/dist/'
-        : '/';
+    ? './'
+    : '/';
 
 module.exports = {
     publicPath,
